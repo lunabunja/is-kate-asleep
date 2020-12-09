@@ -54,7 +54,7 @@ module.exports = class SleeperNoSleeping extends Plugin {
     powercord.api.commands.registerCommand({
       command: 'sleepstatus',
       description: 'Is Kate Sleeping?',
-      usage: '{c}',
+      usage: '{c} <person>',
       executor: (args) => this.sleep(args),
       autocomplete: (args) => {
         if (args[1] === void 0) {
