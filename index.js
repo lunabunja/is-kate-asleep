@@ -59,7 +59,7 @@ module.exports = class SleeperNoSleeping extends Plugin {
 
       case "ben":
         name = "Ben"
-        person = members.filter(member => member.username === "Ben")[0]; // I will change my avatart but not my nick
+        person = members.filter(member => member.username === "Ben")[0]; // I will change my avatar but not my nick
         break;
      }
     }
