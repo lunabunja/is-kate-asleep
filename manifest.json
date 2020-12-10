@@ -1,7 +1,7 @@
 {
   "author": "sanana the skenana#8689",
   "license": "MIT",
-  "version": "0.0.0.0.1-glitchy",
+  "version": "0.2-glitchy",
   "name": "Is Kate Sleeping?",
   "description": "Adds a command called sleepstatus that checks if katlyn#9607 (or one of other cool people) is active. This uses scary hax so it can break overnight."
 }
