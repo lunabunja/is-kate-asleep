@@ -64,8 +64,6 @@ module.exports = class SleeperNoSleeping extends Plugin {
      }
     }
     
-    awake = person?.status === "online";
-
     return {
       ...this.base,
       result: `${name} is ${awake ? "awake" : "asleep"}.`
