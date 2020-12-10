@@ -64,7 +64,7 @@ module.exports = class SleeperNoSleeping extends Plugin {
      }
     }
     
-    awake = person?.status === "online";
+    // awake = person?.status === "online"; // Online means the green indicator. Not online.
 
     return {
       ...this.base,
